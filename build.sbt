@@ -1,7 +1,7 @@
 lazy val commonSettings = Seq(
     organization := "fr.ecp.sio",
     version := "0.1.0-SNAPSHOT",
-    scalaVersion := "2.11.7"
+    scalaVersion := "2.10.4"
 )
 
 lazy val root = (project in file(".")).
